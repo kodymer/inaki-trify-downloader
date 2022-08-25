@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TriFy</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="overflow-hidden">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="float-end">ID <span class="h6 badge bg-info text-dark bg-secondary text-lowercase"
+                                id="userId"></span></h6>
+                        <br />
+                        <div class="mb-3">
+                            <label class="form-label" id="hostTitle"></label>
+                            <input type="text" id="host" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" id="subfolderTitle"></label>
+                            <input type="text" id="subfolder" class="form-control">
+                        </div>
+                        <button type="button" class="btn btn-primary" id="save">Guardar</button>
+                    </div>
+                    <div class="card-footer alert-success invisible" id="status">&#161;La configuraci&#243;n ha sido
+                        almacenada!</div>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+    <script src="options.js"></script>
+</body>
+
+</html>

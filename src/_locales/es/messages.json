@@ -1,0 +1,18 @@
+{
+    "name": 
+    {
+        "message":"TriFy"
+    },
+    "description": 
+    {
+        "message":"Imprime la información del vehiculo consultado en REPUVE en un archivo PDF."
+    },
+    "option_label_host": 
+    {
+        "message": "Host del servicio"
+    },
+    "option_label_subfolder": 
+    {
+        "message":"Ruta relativa a la carpeta descargas donde se alcenaran los archivos PDF"
+    }
+}
